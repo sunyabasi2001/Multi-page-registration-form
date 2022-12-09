@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documents Uploading</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1 class="main_heading">Student Registration Form</h1>
+        <hr />
+        <h2>Documents Uploading</h2>
+
+        <!-- Photograph -->
+        <div class="form-control">
+          <div class="heading">
+            Recent passport size photograph (image size less than 4MB)<span
+              class="star"
+              >*</span
+            >
+          </div>
+          <div class="one-input-field">
+            <input type="file" name="photo" id="photo" />
+          </div>
+        </div>
+
+        <!-- HSC Mark Sheet -->
+        <div class="form-control">
+          <div class="heading">
+            HSC mark sheet (image, PDF or docs size less than 4MB)<span
+              class="star"
+              >*</span
+            >
+          </div>
+          <div class="one-input-field">
+            <input type="file" name="HSCMarkSheet" id="HSCMarkSheet" />
+          </div>
+        </div>
+
+        <!-- SSC Mark Sheet -->
+        <div class="form-control">
+          <div class="heading">
+            SSC mark sheet (image, PDF or docs size less than 4MB)<span
+              class="star"
+              >*</span
+            >
+          </div>
+          <div class="one-input-field">
+            <input type="file" name="SSCMarkSheet" id="SSCMarkSheet" />
+          </div>
+        </div>
+
+        <!-- All Semesters Mark Sheets -->
+        <div class="form-control">
+          <div class="heading">
+            All semesters mark sheet in a single PDF or docs (file size less
+            than 10MB)<span class="star">*</span>
+          </div>
+          <div class="one-input-field">
+            <input type="file" name="AllSemMarkSheet" id="AllSemMarkSheet" />
+          </div>
+        </div>
+
+        <div class="form-control">
+          <div>
+            <input type="submit" id="form3-submit-btn" value="Submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/app3.js"></script>
+  </body>
+</html>

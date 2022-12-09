@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1 class="main_heading">Student Registration Form</h1>
+        <hr />
+        <h2>Personal Details</h2>
+
+        <!-- name -->
+        <div class="heading">Name <span class="star">*</span></div>
+        <div class="two-input-fields form-control">
+          <input
+            type="text"
+            required
+            name="firstname"
+            id="firstname"
+            placeholder="Enter First Name"
+          />
+          <input
+            type="text"
+            required
+            name="lastname"
+            id="lastname"
+            placeholder="Enter Last Name"
+          />
+        </div>
+
+        <!-- date of birth -->
+        <div class="form-control">
+          <div class="heading">Date of Birth <span class="star">*</span></div>
+          <div class="one-input-field">
+            <input
+              type="date"
+              required
+              name="dob"
+              id="dob"
+              placeholder="Enter Your DOB"
+            />
+          </div>
+        </div>
+
+        <!-- email -->
+        <div class="form-control">
+          <div class="heading">Email <span class="star">*</span></div>
+          <div class="one-input-field">
+            <input
+              type="email"
+              required
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+        </div>
+
+        <!-- father's name -->
+        <div class="form-control">
+          <div class="heading">Father's Name <span class="star">*</span></div>
+          <div class="two-input-fields">
+            <input
+              type="text"
+              required
+              name="fatherfirstname"
+              id="fatherfirstname"
+              placeholder="Enter First Name"
+            />
+            <input
+              type="text"
+              required
+              name="fatherlastname"
+              id="fatherlastname"
+              placeholder="Enter Last Name"
+            />
+          </div>
+        </div>
+
+        <!-- mother's name -->
+        <div class="form-control">
+          <div class="heading">Mother's Name <span class="star">*</span></div>
+          <div class="two-input-fields">
+            <input
+              type="text"
+              required
+              name="motherfirstname"
+              id="motherfirstname"
+              placeholder="Enter First Name"
+            />
+            <input
+              type="text"
+              required
+              name="motherlastname"
+              id="motherlastname"
+              placeholder="Enter Last Name"
+            />
+          </div>
+        </div>
+
+        <!-- gender -->
+        <div class="form-control">
+          <div class="heading">Gender<span class="star">*</span></div>
+
+          <div>
+            <label for="male">M</label>
+            <input type="radio" required name="gender" id="male" value="male" />
+          </div>
+
+          <div>
+            <label for="female">F</label>
+            <input
+              type="radio"
+              required
+              name="gender"
+              id="female"
+              value="female"
+            />
+          </div>
+        </div>
+
+        <!-- nationality -->
+        <div class="form-control">
+          <div class="heading">Nationality<span class="star">*</span></div>
+          <div class="one-input-field">
+            <input
+              type="text"
+              required
+              name="nation"
+              id="nation"
+              placeholder="Enter Your Nationality"
+            />
+          </div>
+        </div>
+
+        <!-- home address -->
+        <div class="form-control">
+          <div class="heading">Home Address<span class="star">*</span></div>
+          <div class="one-input-field">
+            <input
+              type="text"
+              required
+              name="street"
+              id="street"
+              placeholder="Street Address"
+            />
+          </div>
+          <div class="two-input-fields">
+            <input
+              type="text"
+              required
+              name="city"
+              id="city"
+              placeholder="Enter Your City"
+            />
+            <input
+              type="text"
+              required
+              name="country"
+              id="country"
+              placeholder="Enter Your Country"
+            />
+          </div>
+        </div>
+
+        <!-- telephone number -->
+        <div class="form-control">
+          <div class="heading">Telephone-Home</div>
+          <div class="one-input-field">
+            <input
+              type="number"
+              name="hNumber" 
+              id="hNumber"
+              placeholder="### ### ####"
+            />
+          </div>
+        </div>
+
+        <!-- mobile nummber-->
+        <form>
+          <label >Mobile number</label><span class="star">*</span><br>
+            <input type="tel"name="num" placeholder="9861-231-123"pattren="[0-9]{4}-[0-9]{3}-[0-9]{3}"required>
+             
+          
+        </form>
+
+        <div class="form-control">
+          
+        <a href="./redgForm2 (1).html" ><input type="submit" id="form1-submit-btn" value="Save and Next" /></a>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/app1.js"></script>
+  </body>
+</html>
